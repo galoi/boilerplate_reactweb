@@ -6,8 +6,8 @@
   "scripts": {
     "start": "run-p del server build:*:dev open",
     "prod": "run-s del build:*:prod",
-    "lint:js": "eslint './srv/scripts/**/*.js'",
-    "format:js": "eslint './srv/scripts/**/*.js' --fix",
+    "lint:js": "eslint './src/scripts/**/*.js'",
+    "format:js": "eslint './src/scripts/**/*.js' --fix",
     "build:js:dev": "NODE_ENV=development webpack --config ./webpack/webpack.config.js --mode development --progress --color --watch",
     "build:js:prod": "NODE_ENV=production webpack --config ./webpack/webpack.config.js --mode production --progress --color",
     "build:html:prod": "pug ./src/templates --basedir ./src/templates/ --pretty --out ./dist/",
