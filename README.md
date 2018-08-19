@@ -13,7 +13,7 @@ This repository is boilerplate for React Web.
 - Huskey / Lint-Staged
 - commitizen
 
-## #ToDo
+## ToDos
 
 - install styled-components
 
