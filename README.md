@@ -9,7 +9,7 @@ This repository is boilerplate for React Web.
 - React 16
 - Redux 4
 - Recompose
-- Prettier / ESLint
+- Prettier / TSLint
 - Huskey / Lint-Staged
 - commitizen
 
