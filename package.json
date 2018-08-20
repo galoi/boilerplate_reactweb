@@ -23,7 +23,7 @@
     "singleQuote": true
   },
   "lint-staged": {
-    "src/scripts/**/*.js": [
+    "src/scripts/**/{*.ts,*.tsx}": [
       "yarn format:js",
       "yarn lint:js",
       "git add"
